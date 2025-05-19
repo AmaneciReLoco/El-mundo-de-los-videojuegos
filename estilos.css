@@ -1,0 +1,103 @@
+body {
+    background-color: #0d0d0d;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #1f1f1f;
+    color: #00ffcc;
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #00ffcc;
+    text-decoration: underline;
+}
+
+a {
+    color: #00ffcc;
+    text-decoration: none;
+}
+
+/* Secciones */
+.seccion {
+    border: 2px solid #00ffcc;
+    margin: 20px;
+    padding: 15px;
+    background-color: #1a1a1a;
+    border-radius: 8px;
+}
+
+.seccion h3 {
+    color: #00ffcc;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#importancia {
+    background-color: #003366;
+    border: 3px solid #00ccff;
+    position: relative;
+}
+
+#ventajas {
+    background-color: #0b3d0b;
+    border: 3px solid #00ff66;
+}
+
+#desventajas {
+    background-color: #4d1a00;
+    border: 3px solid #ff3300;
+    transition: background-color 0.3s;
+}
+
+#desventajas:hover {
+    background-color: #661f00;
+}
+
+#historia {
+    background-color: #222244;
+    border: 3px solid #6666ff;
+    max-height: 400px;
+    overflow-y: scroll;
+}
+
+#impacto {
+    background-color: #2b1a33;
+    border: 3px solid #cc33ff;
+}
+
+.tabla-videojuegos {
+    margin: 20px auto;
+    width: 90%;
+}
+
+#autor {
+    padding: 15px;
+}
+
+.card-autor img {
+    width: 120px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    border: 2px solid #00ffcc;
+}
